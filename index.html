@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chińczyk</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <script src="script.js"></script>
+
+    <div class="main">
+        <div class="top">
+            <div class="grSpawn">
+                <div class="sp">
+                    <div class="row">
+                        <div class="grPawn" id="grSpawn:1" onclick="start('grSpawn:1')"></div>
+                        <div class="grPawn" id="grSpawn:2" onclick="start('grSpawn:2')"></div>
+                    </div>
+                    <div class="row">
+                        <div class="grPawn" id="grSpawn:3" onclick="start('grSpawn:3')"></div>
+                        <div class="grPawn" id="grSpawn:4" onclick="start('grSpawn:4')"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="verBoard">
+                <div class="row">
+                    <div class="field" id="1"></div>
+                    <div class="field" id="2"></div>
+                    <div class="field" id="3"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="40"></div>
+                    <div class="blHome" id="blHome:1" onclick="home('blHome:1')"></div>
+                    <div class="field" id="4"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="39"></div>
+                    <div class="blHome" id="blHome:2" onclick="home('blHome:2')"></div>
+                    <div class="field" id="5"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="38"></div>
+                    <div class="blHome" id="blHome:3" onclick="home('blHome:3')"></div>
+                    <div class="field" id="6"></div>
+                </div>
+            </div>
+            <div class="blSpawn">
+                <div class="sp">
+                    <div class="row">
+                        <div class="blPawn" id="blSpawn:1" onclick="start('blSpawn:1')"></div>
+                        <div class="blPawn" id="blSpawn:2" onclick="start('blSpawn:2')"></div>
+                    </div>
+                    <div class="row">
+                        <div class="blPawn" id="blSpawn:3" onclick="start('blSpawn:3')"></div>
+                        <div class="blPawn" id="blSpawn:4" onclick="start('blSpawn:4')"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="row">
+                <div class="field" id="33"></div>
+                <div class="field" id="34"></div>
+                <div class="field" id="35"></div>
+                <div class="field" id="36"></div>
+                <div class="field" id="37"></div>
+                <div class="blHome" id="blHome:4" onclick="home('blHome:4')"></div>
+                <div class="field" id="7"></div>
+                <div class="field" id="8"></div>
+                <div class="field" id="9"></div>
+                <div class="field" id="10"></div>
+                <div class="field" id="11"></div>
+            </div>
+            <div class="row">
+                <div class="field" id="32"></div>
+                <div class="grHome" id="grHome:1" onclick="home('grHome:1')"></div>
+                <div class="grHome" id="grHome:2" onclick="home('grHome:2')"></div>
+                <div class="grHome" id="grHome:3" onclick="home('grHome:3')"></div>
+                <div class="grHome" id="grHome:4" onclick="home('grHome:4')"></div>
+                <div class="blank"></div>
+                <div class="yeHome" id="yeHome:1" onclick="home('yeHome:1')"></div>
+                <div class="yeHome" id="yeHome:2" onclick="home('yeHome:2')"></div>
+                <div class="yeHome" id="yeHome:3" onclick="home('yeHome:3')"></div>
+                <div class="yeHome" id="yeHome:4" onclick="home('yeHome:4')"></div>
+                <div class="field" id="12"></div>
+            </div>
+            <div class="row">
+                <div class="field" id="31"></div>
+                <div class="field" id="30"></div>
+                <div class="field" id="29"></div>
+                <div class="field" id="28"></div>
+                <div class="field" id="27"></div>
+                <div class="reHome" id="reHome:4" onclick="home('reHome:4')"></div>
+                <div class="field" id="17"></div>
+                <div class="field" id="16"></div>
+                <div class="field" id="15"></div>
+                <div class="field" id="14"></div>
+                <div class="field" id="13"></div>
+            </div>
+        </div> 
+        <div class="bot">
+            <div class="reSpawn">
+                <div class="sp">
+                    <div class="row">
+                        <div class="rePawn" id="reSpawn:1" onclick="start('reSpawn:1')"></div>
+                        <div class="rePawn" id="reSpawn:2" onclick="start('reSpawn:2')"></div>
+                    </div>
+                    <div class="row">
+                        <div class="rePawn" id="reSpawn:3" onclick="start('reSpawn:3')"></div>
+                        <div class="rePawn" id="reSpawn:4" onclick="start('reSpawn:4')"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="verBoard">
+                <div class="row">
+                    <div class="field" id="26"></div>
+                    <div class="reHome" id="reHome:3" onclick="home('reHome:3')"></div>
+                    <div class="field" id="18"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="25"></div>
+                    <div class="reHome" id="reHome:2" onclick="home('reHome:2')"></div>
+                    <div class="field" id="19"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="24"></div>
+                    <div class="reHome" id="reHome:1" onclick="home('reHome:1')"></div>
+                    <div class="field" id="20"></div>
+                </div>
+                <div class="row">
+                    <div class="field" id="23"></div>
+                    <div class="field" id="22"></div>
+                    <div class="field" id="21"></div>
+                </div>
+            </div>
+            <div class="yeSpawn">
+                <div class="sp">
+                    <div class="row">
+                        <div class="yePawn" id="yeSpawn:1" onclick="start('yeSpawn:1')"></div>
+                        <div class="yePawn" id="yeSpawn:2" onclick="start('yeSpawn:2')"></div>
+                    </div>
+                    <div class="row">
+                        <div class="yePawn" id="yeSpawn:3" onclick="start('yeSpawn:3')"></div>
+                        <div class="yePawn" id="yeSpawn:4" onclick="start('yeSpawn:4')"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="control">
+        <button id="btn" onclick="losuj()">Losuj!</button><button id="btn" onclick="pomin()">Pomiń</button>
+        <div id="nb">-</div>
+        <div id="turn">Teraz rzuca: Zielony</div>
+        <div id="info">Wylosuj liczbe...</div>
+        <input type="hidden" id="now" value="0">
+    </div>
+
+</body>
+</html>

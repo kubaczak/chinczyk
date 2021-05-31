@@ -1,0 +1,201 @@
+.main{
+    width: 440px;
+    height: 440px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: rgb(172, 217, 255);
+}
+
+.top{
+    width: 440px;
+    height: 160px;
+}
+
+.grSpawn{
+    width: 120px;
+    height: 120px;
+    background-color: lime;
+    border-radius: 100%;
+    border: 2px solid white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.blSpawn{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border-radius: 100%;
+    border: 2px solid white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.reSpawn{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 100%;
+    border: 2px solid white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.yeSpawn{
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+    border-radius: 100%;
+    border: 2px solid white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.verBoard{
+    width: 120px;
+    height: 160px;
+    float: left;
+    margin-left: 15px;
+}
+
+.row{
+    height: 40px;
+    clear: left;
+}
+
+.field{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("field.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.grHome{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("grHome.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+
+}
+.blHome{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("blHome.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.reHome{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("reHome.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.yeHome{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("yeHome.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.blank{
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.grPawn{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("grPawn.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+.blPawn{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("blPawn.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+.rePawn{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("rePawn.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+.yePawn{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-image: url("yePawn.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+
+.sp{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.control{
+    width: 440px;
+    height: 150px;
+    margin: auto;
+    background-color: rgb(71, 172, 255);
+    text-align: center;
+}
+
+#btn{
+    margin-top: 30px;
+    width: 60px;
+}
+
+#nb{
+    margin: 10px;
+}
+
+#info{
+    margin: 10px;
+}
